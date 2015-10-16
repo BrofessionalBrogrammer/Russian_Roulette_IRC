@@ -37,7 +37,7 @@ ircsock.send(bytes("NICK "+ botnick +"\n", "UTF-8"))
 time.sleep(3)
 #ns and cs id
 ircsock.send(bytes("NICKSERV :IDENTIFY %s\r\n" % password, "UTF-8"))
-ircsock.send(bytes("CHANSERV :IDENTIFY #LmaoAyy %s\r\n" % chanpass, "UTF-8"))
+ircsock.send(bytes("CHANSERV :IDENTIFY " + channel + " %s\r\n" % chanpass, "UTF-8"))
 time.sleep(3)
 joinchan(channel)
 
