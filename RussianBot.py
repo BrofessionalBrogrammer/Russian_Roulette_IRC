@@ -93,7 +93,7 @@ while True:
                 if(line[3] == ":.roulette"):
                     shoot()
                 if(line[3] == ":.bots"):
-                    msg = "Reporting in! [x86 ASM] {I'M A HAPPYBOT}"
+                    msg = "Reporting in! [Python] {I'M A HAPPYBOT}"
                     ircsock.send(bytes("PRIVMSG "+ channel +" :"+ msg +"\n", "UTF-8"))
         except IndexError:
             pass
