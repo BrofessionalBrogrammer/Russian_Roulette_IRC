@@ -51,7 +51,7 @@ while True:
     get_sec = int(time.strftime("%S"))
     time.sleep(1)
     if (get_sec % 30 == 0): #if someone talks on the 30 or 0 second mark, it will drink vodka and announce the time
-        ircsock.send(bytes("PRIVMSG %s :%s\r\n" % (channel, "ACTION " + "checks the time and sees that it's " + str(get_ime) + " past the hour and takes a swig of vodka" + ""), "UTF-8"))
+        ircsock.send(bytes("PRIVMSG %s :%s\r\n" % (channel, "ACTION " + "checks the time and sees that it's " + str(get_time) + " past the hour and takes a swig of vodka" + ""), "UTF-8"))
     #sends messages to channel
     def sendmsg(chan , msg):
         ircsock.send(bytes("PRIVMSG "+ chan +" :"+ msg +"\n", "UTF-8"))
