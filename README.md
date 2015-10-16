@@ -21,4 +21,4 @@ BrofessionalBrogrammer: .roulette
 Configuration:
 
 
-Edit the russian-bot.py file, change the default values for server, channel, the bots nickname, password, and optionally, the channel password. This bot has to at least be half-op'd for people to play, as it kicks people if they lose (with a BANG!).
+Edit the RussianBot.py file, change the default values for server, channel, the bots nickname, password, and optionally, the channel password. This bot has to at least be half-op'd for people to play, as it kicks people if they lose (with a BANG!).
