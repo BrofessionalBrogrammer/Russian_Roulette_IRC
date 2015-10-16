@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 # Russian Roulette IRC bot
 # Created by Lance Brignoni on 10.5.15
 # This program is free software; you can redistribute it and/or modify
